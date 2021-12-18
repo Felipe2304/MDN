@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/MDN/reset.css" />
+    <link rel="stylesheet" href="/MDN/advinhe_um_numero/advinhe.css" />
+    <title>advinhe um numero</title>
+  </head>
+  <body>
+    <section class="conteiner">
+      <h1 class="titulo">Advinhe um número</h1>
+
+      <div class="caixa-do-jogo">
+        <p class="texto enunciado">
+          Selecionamos um número aleatório entre 1 e 100. Veja se consegue
+          adivinhar em 10 chances ou menos. Lhe diremos se seu palpite está com
+          valor alto ou baixo.
+        </p>
+        <div class="palpitar-numero">
+          <form >
+            <label for="palpite"> Digite seu palpite :<input type="number" class="palpite" id="palpite" placeholder="palpite"></label>
+            <input type="submit" value="verificar" class="botao botao-verificar">
+          </form>
+        </div>
+
+        <p class='texto texto-palpites'></p>
+        <p class="texto baixo-ou-alto"></p>
+      </div>
+    </section>
+  </body>
+  <script src="/MDN/advinhe_um_numero/advinhe.js"></script>
+</html>
