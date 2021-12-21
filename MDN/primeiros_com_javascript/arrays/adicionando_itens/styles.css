@@ -1,0 +1,25 @@
+html{
+  font-size: 30px;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.titulo{
+  margin-bottom: 40px;
+}
+.entrada-de-dados{
+  height: 35px;
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+.botao{
+  height: 35px;
+  width: 100px;
+
+}
